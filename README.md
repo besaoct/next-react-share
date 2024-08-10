@@ -72,4 +72,4 @@ export default App;
 
 ## License
 
-MIT License. See the [LICENSE](https://raw.githubusercontent.com/besaoct/next-react-share/Main/LICENSE) file for details.
+MIT License. See the [LICENSE](https://raw.githubusercontent.com/besaoct/next-react-share/main/LICENSE) file for details.
