@@ -2,8 +2,10 @@
   "name": "next-react-share",
   "version": "1.0.0",
   "type": "module",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/cjs/index.js", 
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts", 
+
   "scripts": {
     "build": "node build.js",
     "prepare": "npm run build",
@@ -30,7 +32,7 @@
   },
   "description": "A customizable and flexible share button component for Next.js and React.",
   "files": [
-    "dist",
+    "dist/**/*",
     "README.md",
     "LICENSE"
   ],
