@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "jsx": "react",                // Enables JSX syntax for React components
+      "outDir": "./dist",            // Output directory for compiled files
+      "rootDir": "./src",            // Root directory of the source files
+      "module": "ESNext",            // Use the ESNext module system (ESM)
+      "target": "ES2020",            // Target ECMAScript version 2020
+      "moduleResolution": "Node",    // Module resolution strategy (Node.js)
+      "declaration": true,           // Generate .d.ts declaration files
+      "strict": true,                // Enable strict type-checking options
+      "sourceMap": false,            // Disable source map generation
+      "esModuleInterop": true,       // Enable interoperability between CommonJS and ES Modules
+      "declarationDir": "./dist"     // Directory for generated .d.ts files
+    },
+    "include": ["src/**/*.ts", "src/**/*.tsx"],  // Files to include in compilation
+    "exclude": ["node_modules"]                 // Files and directories to exclude
+  }
+  
